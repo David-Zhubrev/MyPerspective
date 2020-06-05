@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_event_feed">
+
+    <fragment
+        android:id="@+id/navigation_event_feed"
+        android:name="com.appdav.myperspective.fragments.EventFeedFragment"
+        android:label="@string/title_event"
+        tools:layout="@layout/fragment_event_feed" />
+
+    <fragment
+        android:id="@+id/navigation_lifehack_feed"
+        android:name="com.appdav.myperspective.fragments.LifehackFeedFragment"
+        android:label="@string/title_lifehack"
+        tools:layout="@layout/fragment_lifehack_feed" />
+
+    <fragment
+        android:id="@+id/navigation_spo_stuff"
+        android:name="com.appdav.myperspective.fragments.SpoStuffFragment"
+        android:label="@string/title_spo_stuff"
+        tools:layout="@layout/fragment_spo_stuff" />
+</navigation>

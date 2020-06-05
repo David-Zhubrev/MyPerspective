@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextPrimary">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="font">@font/roboto</item>
+        <item name="android:spacing">0.5sp</item>
+    </style>
+
+    <style name="TextQuote">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="font">@font/roboto</item>
+        <item name="fontStyle">italic</item>
+        <item name="autoSizeMaxTextSize">16sp</item>
+        <item name="android:spacing">0.5sp</item>
+    </style>
+
+    <style name="TextSecondary">
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="font">@font/roboto</item>
+        <item name="android:spacing">0.25sp</item>
+    </style>
+
+    <style name="TextHeadline">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:spacing">0.15sp</item>
+        <item name="font">@font/roboto_bold</item>
+    </style>
+
+    <style name="Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="font">@font/roboto</item>
+    </style>
+
+    <style name="RoundedButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="font">@font/roboto</item>
+    </style>
+
+
+
+    <style name="TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="font">@font/roboto</item>
+    </style>
+
+    <style name="Toolbar" parent="AppTheme">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="EditText" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="font">@font/roboto</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="errorTextColor">@color/colorAccent</item>
+        <item name="hintTextColor">@color/colorTextSecondary</item>
+        <item name="hintTextAppearance">@style/TextSecondary</item>
+        <item name="android:colorActivatedHighlight">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Моя Перспектива</string>
+
+    <string name="users_list_title">Список отряда</string>
+    <string name="title_event">События</string>
+    <string name="title_lifehack">Лайфхаки</string>
+    <string name="title_spo_stuff">Вожатская</string>
+
+    <string name="action_calendar">Календарь</string>
+    <string name="action_profile">Профиль</string>
+    <string name="action_editors_room">Кабинет редакторов</string>
+    <string name="action_users_list">Список отряда</string>
+
+    <string name="wait">Пожалуйста, подождите…</string>
+
+    <string name="spo_name">СПО "Перспектива"</string>
+
+    <string name="press_back_twice_to_quit">Нажмите ещё раз, чтобы выйти</string>
+
+    <string name="notification_channel_name">Уведомления о событиях</string>
+
+    <string name="icons_attribute">Значки за авторством:\nhttps://www.flaticon.com/authors/good-ware
+        \nhttps://www.flaticon.com/authors/iconixar
+        \nhttps://www.flaticon.com/authors/freepik
+        \nhttps://www.flaticon.com/authors/srip
+        \nhttps://www.flaticon.com/authors/surang
+        \nhttps://www.flaticon.com/authors/pixel-perfect
+        \nhttps://www.flaticon.com/authors/eucalyp
+    </string>
+
+    <string name="info_title">О приложении</string>
+    <string name="info_version">Версия:</string>
+    <string name="info_made_with_love">Сделано с любовью!</string>
+    <string name="info_author">Автор: Давид Жубрёв</string>
+    <string name="info_contacts">Контакты:
+        \nvk.com/dav911
+        \ndavid.zhubrev@gmail.com
+        \n+79819581502
+    </string>
+
+    <string name="info_editors_rights_granted">Получены права редактора</string>
+
+    <string name="people_going_tab">Пойдут</string>
+    <string name="people_not_going_tab">Не пойдут</string>
+    <string name="people_going_empty_list">Список пуст</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="calendar_title">Избранные события</string>
+
+    <string name="calendar_date_format">MMM yyyy</string>
+    <string name="tv_calendar_empty_list">На этот день ничего не запланировано</string>
+    <string name="tv_calendar_birthday">День рождения</string>
+
+    <string name="notification_remind_title">Напоминание о событии</string>
+    <string name="notification_remind_today">Сегодня состоится</string>
+    <string name="notification_remind_tomorrow">Завтра состоится</string>
+
+    <string name="notification_birthday_title">День рождения</string>
+    <string name="notification_birthday_message_postfix">празднует свой День Рождения!\nНе забудьте его поздравить!</string>
+
+    <string name="message_event_time_already_passed">Мероприятие уже состоялось</string>
+    <string name="message_event_time_beginning_in_one_hour">Мероприятие начнётся менее, чем через час</string>
+    <string name="message_reminder_added_successfully">Напоминание успешно добавлено</string>
+
+    <string name="dialog_alarm_title">Напомнить за:</string>
+    <string name="dialog_alarm_one_hour">1 час до начала</string>
+    <string name="diaog_alarm_six_hours">6 часов до начала</string>
+    <string name="dialog_alarm_twenty_four_hours">24 часа до начала</string>
+
+</resources>

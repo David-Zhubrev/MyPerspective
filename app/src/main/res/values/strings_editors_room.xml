@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="editors_room_title">Кабинет редактора</string>
+    <string name="editors_room_editor">Редактор</string>
+    <string name="editors_room_banned">Бан</string>
+
+
+    <string name="editors_dialog_give_rights_title">Разрешить доступ</string>
+    <string name="editors_dialog_give_rights_message">Разрешить этому пользователю редактировать, добавлять и изменять записи?</string>
+    <string name="editors_dialog_give_rights_button_positive">Разрешить</string>
+    <string name="editors_dialog_give_rights_button_negative">Не разрешать</string>
+
+    <string name="editors_dialog_deny_rights_title">Запретить доступ</string>
+    <string name="editors_dialog_deny_rights_message">Запретить этому пользователю редактировать, добавлять и изменять записи?</string>
+    <string name="editors_dialog_deny_rights_button_positive">Запретить</string>
+    <string name="editors_dialog_deny_rights_button_negative">Отмена</string>
+
+    <string name="editors_dialog_deny_creating_entries_title">Запретить доступ</string>
+    <string name="editors_dialog_deny_creating_entries_message">Запретить этому пользователю добавлять новые события?</string>
+    <string name="editors_dialog_deny_creating_entries_button_positive">Запретить</string>
+    <string name="editors_dialog_deny_creating_entries_button_negative">Отмена</string>
+
+    <string name="editors_dialog_give_creating_entries_rights_title">Разрешить доступ</string>
+    <string name="editors_dialog_give_creating_entries_rights_message">Разрешить этому пользователю добавлять новые события?</string>
+    <string name="editors_dialog_give_creating_entries_rights_button_positive">Разрешить</string>
+    <string name="editors_dialog_give_creating_entries_rights_button_negative">Не разрешать</string>
+
+    <string name="editors_dialog_item_give_editors_permission">Назначить редактором</string>
+    <string name="editors_dialog_item_deny_editors_permission">Убрать из редакторов</string>
+    <string name="editors_dialog_item_give_creating_permission">Разрешить создавать записи</string>
+    <string name="editors_dialog_item_deny_creating_permission">Запретить создавать записи</string>
+
+</resources>

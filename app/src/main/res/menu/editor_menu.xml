@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_accept"
+        android:enabled="true"
+        android:icon="@drawable/ic_accept"
+        android:title="@string/new_event_button_accept"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_wait"
+        android:title="@string/new_event_action_wait_title"
+        app:actionViewClass="android.widget.ProgressBar"
+        app:showAsAction="always" />
+</menu>
