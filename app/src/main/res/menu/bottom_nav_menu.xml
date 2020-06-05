@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_event_feed"
+        android:icon="@drawable/ic_event_feed"
+        android:title="@string/title_event" />
+
+    <item
+        android:id="@+id/navigation_lifehack_feed"
+        android:icon="@drawable/ic_lamp"
+        android:title="@string/title_lifehack" />
+
+    <item
+        android:id="@+id/navigation_spo_stuff"
+        android:icon="@drawable/ic_book"
+        android:title="@string/title_spo_stuff" />
+
+</menu>

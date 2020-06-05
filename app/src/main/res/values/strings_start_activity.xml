@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_log_in">Войдите, используя свою учётную запись</string>
+    <string name="btn_login">Вход</string>
+    <string name="login_error">Произошла ошибка при подключении. Проверьте состояние Вашего сетевого соединения и попробуйте ещё раз</string>
+</resources>

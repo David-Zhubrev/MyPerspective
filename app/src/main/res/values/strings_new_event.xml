@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="new_event_activity_title">Создать событие</string>
+
+    <string name="new_event_name">Заголовок*:</string>
+    <string name="new_event_name_hint">Введите заголовок</string>
+
+    <string name="new_event_date">Дата и время*:</string>
+    <string name="new_event_date_hint">DD.MM.YYYY, HH:mm</string>
+
+    <string name="new_event_info">Описание события:</string>
+    <string name="new_event_info_hint">Не более 2000 знаков</string>
+
+    <string name="new_event_photo">Фотография:</string>
+    <string name="new_event_no_photo">Нет добавленной фотографии</string>
+    <string name="new_event_photo_hint">Добавьте фотографию, чтобы привлечь внимание пользователей</string>
+
+    <string name="new_event_button_accept">Готово</string>
+    <string name="new_event_button_add_photo">Добавить фото</string>
+    <string name="new_event_action_wait_title">Пожалуйста, подождите</string>
+
+    <string name="new_event_choose_photo">Выберите изображение</string>
+
+    <string name="new_event_dialog_title">Выйти?</string>
+    <string name="new_event_dialog_save_as_blueprint">Сохранить как черновик</string>
+    <string name="new_event_dialog_cancel">Отмена</string>
+    <string name="new_event_dialog_no_save">Не сохранять</string>
+
+    <string name="required_field_error">Обязательное поле</string>
+    <string name="format_error">Неправильный формат</string>
+    <string name="photo_error">Пожалуйста, добавьте фотографию</string>
+    <string name="instant_event_duration_error">Быстрое событие может состояться не более, чем через 3 дня</string>
+    <string name="past_time_error">Нельзя создавать события, которые уже закончились</string>
+
+    <string name="database_error">Произошла ошибка при загрузке</string>
+    <string name="retry">Повторить</string>
+
+    <string name="new_event_successful">Событие успешно добавлено</string>
+
+    <string name="new_event_tv_type">Тип события*:</string>
+    <string name="new_event_tv_type_hint">Активируйте, чтобы создать "Быстрое" событие</string>
+
+    <string name="new_event_popup_hint_title">"Быстрые" события</string>
+    <string name="new_event_popup_hint_message">"Быстрые" события - это события, которые имеют ограниченный срок действия \n\nБыстрые события можно создавать только на ближайшие три дня</string>
+    <string name="new_event_popup_hint_message_secondary">По истечении 6 часов после начала события, оно автоматически удалится</string>
+
+    <string name="new_event_snackbar_no_editors_rights">Только редакторы могут добавлять длительные события</string>
+
+</resources>

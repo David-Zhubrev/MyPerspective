@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="profile_viewer_title">Просмотр профиля</string>
+    <string name="profile_editor_title">Редактирование профиля</string>
+    <string name="action_edit">Редактировать</string>
+
+    <string name="profile_name">Имя*:</string>
+    <string name="profile_name_hint">Введите имя</string>
+
+    <string name="profile_surname">Фамилия*:</string>
+    <string name="profile_surname_hint">Введите фамилию</string>
+
+    <string name="profile_birthday">День рождения:</string>
+    <string name="profile_birthday_hint">ДД.ММ.ГГГГ</string>
+
+    <string name="profile_joining_year">В отряде с:</string>
+
+    <string name="profile_info">Информация о пользователе:</string>
+
+    <string name="profile_phone">Номер телефона:</string>
+    <string name="profile_phone_hint">+7(XXX)XXX-XX-XX</string>
+
+    <string name="profile_rank">Должность в отряде:</string>
+
+    <string name="profile_about">О себе:</string>
+
+    <string name="profile_empty_field">Не указан</string>
+
+    <string name="profile_joined_prefix">В отряде с</string>
+    <string name="profile_joined_postfix">года</string>
+
+    <string name="profile_tv_add_photo">Нажмите, чтобы добавить фотографию</string>
+
+    <string name="format_error_message">Проверьте правильность введённых данных</string>
+
+    <string name="profile_updated_successfully">Данные обновлены</string>
+    <string-array name="joining_year">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+
+    <string-array name="ranks">
+        <item>Боец</item>
+        <item>Командир</item>
+        <item>Комиссар</item>
+        <item>Методист</item>
+        <item>Комендант</item>
+        <item>Член пресс-центра</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/event_feed_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.appdav.myperspective.common.views.RefreshButton
+        android:id="@+id/button_refresh_event_feed"
+        style="@style/RoundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_refresh_event"
+        android:translationY="-200dp"
+        app:layout_anchor="@id/recycler_view_event_feed"
+        app:layout_anchorGravity="center_horizontal"
+        app:layout_behavior=".common.behaviours.RefreshButtonBehaviour" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_event_feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_anchor="@id/recycler_view_event_feed"
+        app:layout_anchorGravity="bottom|end"
+        app:layout_behavior=".common.behaviours.FabBehaviour"
+        app:srcCompat="@drawable/ic_plus"
+        app:tint="@color/colorButtonText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_event_feed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_event_feed"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_anchorGravity="center" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_user_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_photo_user_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_name_user_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Имя Фамилия"
+            android:textAppearance="@style/TextPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/tv_status_user_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/civ_photo_user_item"
+            app:layout_constraintTop_toTopOf="@+id/civ_photo_user_item" />
+
+        <TextView
+            android:id="@+id/tv_status_user_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Редактор"
+            android:textAppearance="@style/TextSecondary"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/civ_photo_user_item"
+            app:layout_constraintStart_toStartOf="@+id/tv_name_user_item" />
+
+        <ImageView
+            android:id="@+id/iv_loader_user_item"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/civ_photo_user_item"
+            app:layout_constraintEnd_toEndOf="@+id/civ_photo_user_item"
+            app:layout_constraintStart_toStartOf="@+id/civ_photo_user_item"
+            app:layout_constraintTop_toTopOf="@+id/civ_photo_user_item"
+            app:srcCompat="@drawable/loader" />
+
+        <TextView
+            android:id="@+id/tv_banned_user_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/editors_room_banned"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tv_name_user_item"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name_user_item" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="like_counter_prefix">Понравилось</string>
+    <string name="like_counter_one_person_postfix">человеку</string>
+    <string name="like_counter_more_than_one_postfix">людям</string>
+
+    <string name="lifehack_menu_delete">Удалить запись</string>
+</resources>

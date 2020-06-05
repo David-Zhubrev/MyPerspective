@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- add photo dialog strings -->
+    <string name="photo_dialog_title">Добавить фото</string>
+    <string name="photo_dialog_action_new">Создать фото</string>
+    <string name="photo_dialog_action_gallery">Выбрать из галереи</string>
+
+    <string name="lifehack_dialog_title">Поделитесь своими мыслями с отрядом:</string>
+    <string name="lifehack_dialog_share">Поделиться</string>
+
+    <string name="lifehack_snackbar_wait">Загрузка&#x2026;</string>
+    <string name="lifehack_snackbar_successful">Успешно!</string>
+    <string name="lifehack_snackbar_failed">Не удалось загрузить запись</string>
+    <string name="lifehack_snackbar_retry">Повторить попытку</string>
+
+    <string name="profile_editor_quit_dialog_title">Выйти?</string>
+    <string name="profile_editor_quit_dialog_message">Вы действительно хотите выйти?\nВсе несохранённые данные будут утеряны</string>
+    <string name="profile_editor_quit_dialog_button_positive">Выйти</string>
+    <string name="profile_editor_quit_dialog_button_negative">Отмена</string>
+
+    <string name="update_dialog_title">Доступна новая версия</string>
+    <string name="update_dialog_message">Вышла новая версия приложения!\nБудь среди первых, кто оценит все новые преимущества!
+    \nОбновление доступно по ссылке:</string>
+    <string name="update_dialog_button">Хорошо!</string>
+    <string name="update_dialog_checkbox">Больше не показывать</string>
+
+    <string name="confirm_dialog_title">Удаление записи</string>
+    <string name="confirm_dialog_message">Вы уверены</string>
+    <string name="confirm_dialog_button_positive">Да</string>
+    <string name="confirm_dialog_button_negative">Нет</string>
+</resources>

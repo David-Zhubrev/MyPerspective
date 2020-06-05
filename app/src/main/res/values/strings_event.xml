@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_go">Пойду</string>
+    <string name="button_not_go">Не пойду</string>
+    <string name="button_change">Изменить решение</string>
+
+    <string name="will_go">Вы пойдёте</string>
+    <string name="wont_go">Вы не пойдёте</string>
+
+    <string name="people_going_no_one">Пока что никто не идёт :с</string>
+    <string name="people_going_one_prefix">Пойдёт</string>
+    <string name="people_going_many_prefix">Пойдут</string>
+    <string name="comma">,</string>
+    <string name="and">и</string>
+    <string name="and_more">и ещё</string>
+    <string name="people_going_less_than_5_postfix">человека</string>
+    <string name="people_going_more_than_5_postfix">человек</string>
+
+    <string name="button_refresh_event">Показать новые записи</string>
+
+    <string name="event_added_to_favs">Событие добавлено в список избранных</string>
+    <string name="event_removed_from_favs">Событие удалено из списка избранных</string>
+
+    <string name="event_3_dots">…</string>
+    <string name="event_show_more">Показать полностью</string>
+
+</resources>

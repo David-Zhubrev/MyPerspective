@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_event_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_event_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Название мероприятия"
+            android:textAppearance="@style/TextHeadline"
+            app:layout_constraintEnd_toStartOf="@+id/iv_menu_event"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_event" />
+
+        <ImageView
+            android:id="@+id/iv_event"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintDimensionRatio="16:10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="23.01.2020, 18:00"
+            android:textAppearance="@style/TextSecondary"
+            app:layout_constraintStart_toStartOf="@+id/tv_event_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_event_name" />
+        <LinearLayout
+            android:id="@+id/linear_layout_event_feed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_event_date"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                android:id="@+id/tv_event_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="На самом деле здесь может быть сколько угодно текста, это не так важно. Важно то, что поле растянется само собой"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_event_date" />
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/colorDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear_layout_event_feed" />
+
+        <Button
+            android:id="@+id/button_event_go"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/button_go"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/linear_layout_event_feed"
+            app:layout_constraintTop_toBottomOf="@+id/tv_event_people_going" />
+
+        <Button
+            android:id="@+id/button_event_wont_go"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/button_not_go"
+            app:layout_constraintStart_toEndOf="@+id/button_event_go"
+            app:layout_constraintTop_toTopOf="@+id/button_event_go" />
+
+        <TextView
+            android:id="@+id/tv_event_decision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Вы пойдёте"
+            android:textAppearance="@style/TextSecondary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/linear_layout_event_feed"
+            app:layout_constraintTop_toBottomOf="@+id/tv_event_people_going" />
+
+        <Button
+            android:id="@+id/button_event_change"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/button_change"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_event_decision"
+            app:layout_constraintStart_toEndOf="@+id/tv_event_decision"
+            app:layout_constraintTop_toTopOf="@+id/tv_event_decision" />
+
+        <ImageView
+            android:id="@+id/iv_event_loader"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_event"
+            app:layout_constraintEnd_toEndOf="@id/iv_event"
+            app:layout_constraintStart_toStartOf="@id/iv_event"
+            app:layout_constraintTop_toTopOf="@+id/iv_event"
+            app:srcCompat="@drawable/loader" />
+
+        <com.appdav.myperspective.common.views.FavButton
+            android:id="@+id/button_fav"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tv_event_people_going"
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            app:srcCompat="@drawable/ic_star_inactive" />
+
+        <TextView
+            android:id="@+id/tv_event_people_going"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Пойдут великий Жока, его несравненный брат Бока и ещё 5 человек"
+            android:textAppearance="@style/TextSecondary"
+            app:layout_constraintEnd_toEndOf="@+id/linear_layout_event_feed"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/linear_layout_event_feed"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <ProgressBar
+            android:id="@+id/pb_indeterminate"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:alpha="0"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:translationY="100dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_event_people_going" />
+
+        <ImageView
+            android:id="@+id/iv_menu_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_event_name"
+            app:srcCompat="@drawable/ic_more"
+            android:visibility="gone"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+        <ImageView
+            android:id="@+id/iv_instant_event_icon_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ic_instant_event_icon_background"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_event"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_energy"
+            app:elevation="5dp"
+            android:visibility="gone"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
